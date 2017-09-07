@@ -35,7 +35,7 @@ $$\min \sum_{i,j}cost\cdot volume$$
 约束条件：
 * 需求约束
 * 供应能力约束
-* 
+
 使用lingo实现
 
     MODEL:
@@ -80,6 +80,8 @@ $$\min \sum_{i,j}cost\cdot volume$$
 有11项作业要指派到4个工作站上，作业之间有优先关系。需要找出分配方案是的装配线的总完成时间最小。
 
 代码如下
+
+
     MODEL:
     ! Assembly line balancing model装配线平衡模型;   
     ! This model involves assigning tasks to stations

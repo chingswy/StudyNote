@@ -294,7 +294,8 @@ $$\min \sum_{i,j}cost\cdot volume$$
     END
 
 ### 联合分析模型
-这个是物品有两个属性联合控制物品的排行，如何根据
+这个是物品有两个属性联合控制物品的排行，如何根据两个属性的综合排行计算单个属性的相对评分
+
 
     MODEL:
 
@@ -367,6 +368,40 @@ $$\min \sum_{i,j}cost\cdot volume$$
     possible;
         MIN = @SUM( WPWP: ERROR);
     END
+
+
+
+
+
+
+
+## lingo优化 Formulating and Solving Integer Programs 章节阅读
+* 纯整数规划与混合整数规划
+* 0/1规划和普通的整数规划
+* 一定范围内的整数规划都可以转化为0/1规划
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
